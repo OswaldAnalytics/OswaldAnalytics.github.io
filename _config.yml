@@ -4,8 +4,8 @@ highlighter:      pygments
 
 # Setup
 title:            Oswald Analytics
-tagline:          A blog on academia, statistics, statistics and life.
-description:      A blog on academia, statistics, statistics and life.
+tagline:          A blog on academia, statistics, research and life.
+description:      A blog on academia, statistics, research and life.
 url:               http://oswaldanalytics.github.io 
 baseurl:          /
 
