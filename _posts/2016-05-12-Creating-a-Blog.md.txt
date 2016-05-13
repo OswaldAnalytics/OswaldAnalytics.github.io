@@ -1,0 +1,223 @@
+Fun with command prompts git and jekyll
+
+I decided that to practice my writing to improve my thesis and overall graduate level writing ability, I would create a blog.  this would allow me to practice my writing, share ideas and learn to edit out the errors in my writing.  Looking over traditional options however, left me very unsatified.  I had heard of people using github to run blogs so I decided to give it a shot.
+
+The process seemed terrifying.  So many new things to learn.  Ruby, Jekyll, Git itself and in general using a platform, windows, for which this is not really ideal for.  But I did like the blogs I seen using it and it should allow me to use Markdown instead of HTML, another plus since I can use Markdown in R as well.
+
+To get started I went to my github page and renamed it to OswaldAnalytics with the intention of using it as more than a copy machine.  Next, I installed Git and GitHub for windows on my computer.  Both were already installed but needed updating.  I then grabbed a Markdown cheatsheet:
+
+http://media02.hongkiat.com/blogger-cheatsheet-resources/markdown-cheatsheet.jpg
+
+So far so good. Next step was to set up the blog space online.  This was as simple as going to Github and creating a new repository called oswaldanalytics.github.io.  Or basically your username followed by .github.io.
+
+Now I would need Ruby, which runs Jekyll.  
+
+For this I opened up the Git CMD.  Now things get slightly scary since I am not a computer science guy, I just play one on TV.  Following this guide (https://pages.github.com) I clone my respository using:
+
+    git clone https://github.com/oswaldanalytics/oswaldanalytics.github.io
+
+Now I change to the copy of this respository on my PC using good old change directory, or CD.
+
+cd oswaldanalytics.github.io 
+
+Then I create my index, which is a hello world.
+
+    echo "Hello World" > index.html
+
+And update the site itself:
+
+    git add --all
+    git commit -m "Initial commit"
+    git push -u origin master
+
+So while I do not understand all I did, I know so far I made an index file, commited to the page then pushed it to the live version which publishes it.  Checking out my github account, indeed the index file now says "Hellow World."  Victory.  Sort of.  I still am not sure exactly what I am doing.  
+
+Next step is to install jekyll.  Now Jekyll is not supported by windows directly so this takes some creativity.  David Burela however already solved this problem so I use his solution.
+
+https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/
+
+I goto windows' run and run cmd.exe.  This gets me a console.  The windows console.  The one I can really mess things up in.  No pressure here.  
+
+Here is I run:
+
+    @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+
+This installs chocolatey on my computer.  Close the command prompt and reopen it and I can use Chocolatey commands.  Now I install Ruby.
+
+    choco install ruby -y
+
+Finally, I need Jekyll.  Close the command prompt and reopen it and now I can use Ruby commands.
+
+    gem install jekyll
+
+So now I have git, github and jekyll ready at my command.  So blog appear.  Grr, didn't work.  
+
+Jonathan McGlone comes to the rescue now:
+
+http://jmcglone.com/guides/github-pages/
+
+A template here allows me to create an index page that is more than a test file.  
+
+eate an index.html page by clicking the plus icon next to your repository name and typing the file name directly in the input box that appears.
+
+
+On the resulting page, put this markup inside of the GitHub text editor:
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hank Quinlan, Horrible Cop</title>
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Hi there, I'm Hank Quinlan!</h1>
+				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
+
+Commit the change and now I have the skeleton of a website.
+
+Next I create the file css/main.css in the main hub of my website.  I copy and paste what Jonathan gave and I have now a style.  
+
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+I commit it then update my index by adding in a link to my style in the `<header>.`
+
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+Now the site appears with a nice clean template.  I can work with this.
+
+Now I create a .gitignore file and add in the 
+
+line _site.
+
+Now I create a _config.yml file and tell it the name of the webpage, and what version of markdown we will be using.
+
+name: OswaldAnalytics
+markdown: kramdown
+
+Next up is a layouts folder, _layouts, with a file default.html in it containing most of what was in my index file.  Here is the new code:
+
+DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:oswaldcsu@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/oswaldanalytics">github.com/oswaldanalytics</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
+
+From here I create a new index file with the following code:
+
+---
+layout: default
+title: Oswald Anaytics
+---
+<div class="blurb">
+	<h1>Greetings!</h1>
+	<p>Placeholder</em> Don't trust it. <a href="/about">About Placeholder...</a></p>
+</div><!-- /.blurb -->
+
+And now my blog can support Jeykll.  Yet this post can still not be uploaded.  Now I need a markdown editor.  For this I tried several and in the end Haroo Pad won out.
+
+But there is till work to be done before we can start posting.  
+
+Returning to our layouts folder, we create a post.html file and give it the following information:
+
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {{ content }}
+</div>
+
+Then we need a place to put the posts.  So a _posts/ directory is created.  
+
+Finally, I can now post this bad boy.  I title it 2016-05-12-Creating-a-Blog.md.
+
+So Jeff Greene (my amazing advisor) style data followed by post title, with dashes between all words.  Because this uses markdown, i use .md extention.  
+
