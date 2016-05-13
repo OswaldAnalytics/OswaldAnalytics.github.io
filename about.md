@@ -1,1 +1,6 @@
-Profile to go here
+---
+layout: page
+title: About
+---
+
+Profile goes here
