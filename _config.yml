@@ -15,6 +15,11 @@ author:
 
 paginate:         5
 
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  CV: '/cv'
+  Feed: '/atom.xml'
 
 github:
   repo:           https://github.com/oswaldanalytics
