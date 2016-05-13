@@ -3,9 +3,9 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Setup
-title:            Oswald
-tagline:          Temp
-description:      tempU
+title:            Oswald Analytics
+tagline:          A blog on academia, statistics, statistics and life.
+description:      A blog on academia, statistics, statistics and life.
 url:               http://oswaldanalytics.github.io 
 baseurl:          /
 
