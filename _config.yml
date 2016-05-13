@@ -13,7 +13,7 @@ author:
   name:           'Christopher Oswald'
   url:             http://oswaldanalytics.github.io 
 
-paginate:         5
+paginate:         10
 
 pages_list:       
   About: '/about'
