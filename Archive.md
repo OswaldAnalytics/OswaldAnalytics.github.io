@@ -3,8 +3,13 @@ layout: page
 title: Archive
 ---
 
-## Blog Posts
+<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
-{% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+<ul class="posts">
+{% for post in page.posts %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
+</ul>
