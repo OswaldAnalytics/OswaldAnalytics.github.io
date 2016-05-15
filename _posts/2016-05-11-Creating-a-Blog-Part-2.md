@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Creating a Blog Part 2"
+---
+
 With the last post, I detailed the pre-blog downloads, forking a style and editting my information into the blog.  This post I will get more into setting up the blog itself.
 
 Thus far, the blog is linked with our information, but the rest of the site is still linked to the Hyde template.  So I needed to do a series of fast edits.
