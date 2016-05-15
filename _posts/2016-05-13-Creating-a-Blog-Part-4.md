@@ -4,6 +4,7 @@ Now I wanted to add a new feature to my blog, an archive of to see all my posts 
 
 
 {% raw %}
+```
 ---
 layout: page
 title: Archive
@@ -25,7 +26,7 @@ title: Archive
     <li>{{ post.date | date:"%b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-~~~
+```
 {% endraw %}
 
 
