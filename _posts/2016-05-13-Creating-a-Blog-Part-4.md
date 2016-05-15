@@ -3,7 +3,7 @@ Now the blog is up and running, there was a short break of fixing various issues
 Now I wanted to add a new feature to my blog, an archive of to see all my posts easily.  To do this, first I went to the layouts folder and created this file archive.md:
 
 
-```
+~~~
 ---
 layout: page
 title: Archive
@@ -25,7 +25,7 @@ title: Archive
     <li>{{ post.date | date:"%b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-```
+~~~
 
 
 
