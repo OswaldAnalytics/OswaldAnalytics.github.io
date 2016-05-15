@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Setting Up a Blog Part 1"
+---
+
 I decided that to practice my writing to improve my thesis and overall graduate level writing ability, I would create a blog.  This would allow me to practice my writing, share ideas and learn to edit out the errors in my writing.  Looking over traditional options however left me very unsatified.  I had heard of people using github to run blogs so I decided to give it a shot.
 
 Gitgub blogs are not like traditional blogs.  While you have the option to use HTML and CSS, you also have the option to run Markdown for your pages and Jekyll for your style.  I encountered Markdown for R and really liked how simple it was to use, but Jekyll seemed really scary for someone who never got into the Git itself.  Instructions said to use Git to get Ruby then Ruby to get Jekyll and suddenly I would have a whole lot of new stuff to learn.  But it turns out you do not have to go that way.
