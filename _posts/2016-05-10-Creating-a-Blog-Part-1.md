@@ -18,6 +18,8 @@ Since I did not want a theme page but a blog it is time to make some edits.
 Prior research told me th The _config.yml file contains the information I would need to change for the blog to display my infomation instead of Mark Otto's, who created Hyde.
 
 The file is fairly easy to understand.  Look for infomation and change it out to my information.
+
+
 ```
 # Dependencies
 markdown:         redcarpet
@@ -48,10 +50,8 @@ github:
 ```
 
 
-
-
-
 Now the file looks like this for mine after editing:
+
 
 ```
 #Dependencies
@@ -80,6 +80,7 @@ pages_list:
 github:
   repo:           https://github.com/oswaldanalytics
 ```
+
 
 Some changes in there not listed so far.  First I changed markdown language to kramdown and the highlighter to rouge.  If you do not github will glady send hundreds of emails suggesting you do.  Also get rid of permalinks.  Github does not like them anymore.  The rest is straight forward.  Replace and add in your information.  I removed some I did not use like twitter
 
