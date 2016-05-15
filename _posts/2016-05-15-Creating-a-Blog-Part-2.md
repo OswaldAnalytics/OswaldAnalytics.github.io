@@ -71,13 +71,12 @@ layout: null
 </feed>
 Status API Training Shop Blog About
 © 2016 GitHub, Inc. Terms Privacy Security Co
-```language
 ```
 
 Now for some cleanup.  I dropped the license.md file as I did not need this.  I edited the readme.md file to my name and the template for the blog I used.  Then I editted my 404 file for fun replacing the text there with some silly stuff.
 
 Now I do own a web domain so I change the CNAME file and change the Hyde URL to my own URL.  Now I go to namecheap, my host, and tell www.oswaldanalytics.com to redirect to http://oswaldanalytics.github.io
 
-With this the basic site is created.  As a final step to prepare the site for blog posts of my own I go to the _posts folder of my repo and delete the three files there from the Jeykll blog.
+With this the basic site is created.  As a final step to prepare the site for blog posts of my own I go to the _posts folder of my repo and create an empty file called temp.md and delete the three files there from the Jeykll blog.
 
 Next post will detail how to first and post blogs.
