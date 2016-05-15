@@ -1,6 +1,5 @@
 # Dependencies
 markdown:         kramdown
-Input:GFM
 highlighter:      rouge
 
 # Setup
