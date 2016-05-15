@@ -37,43 +37,6 @@ title: Archive
 {% endfor %}
 ```
 
-
-Finally I wanted an RSS feed.  I found some code for this as well.  Create a file called Atom.XML and paste this into it:
-
-```
----
-layout: null
----
-
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
-
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
-
-</feed>
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Co
-```language
-```
-
 Now for some cleanup.  I dropped the license.md file as I did not need this.  I edited the readme.md file to my name and the template for the blog I used.  Then I editted my 404 file for fun replacing the text there with some silly stuff.
 
 Now I do own a web domain so I change the CNAME file and change the Hyde URL to my own URL.  Now I go to namecheap, my host, and tell www.oswaldanalytics.com to redirect to http://oswaldanalytics.github.io
