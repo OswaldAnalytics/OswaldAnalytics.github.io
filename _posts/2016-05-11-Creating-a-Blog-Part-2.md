@@ -25,9 +25,7 @@ Title is simply the title of the Page.  Anything before the dashed lines wil be 
 
 I repeated this for my CV.
 
-Now for some cleanup.  I dropped the license.md file as I did not need this.  I edited the readme.md file to my name and the template for the blog I used.  Then I editted my 404 file for fun replacing the text there with some silly stuff.
-
-Now I do own a web domain so I change the CNAME file and change the Hyde URL to my own URL.  Now I go to namecheap, my host, and tell www.oswaldanalytics.com to redirect to http://oswaldanalytics.github.io
+Now for some cleanup.  I dropped the license.md file as I did not need this.  The CNAME file I deleted and set up a redirect to my blog from my domain host.  I edited the readme.md file to my name and the template for the blog I used.  Then I editted my 404 file for fun replacing the text there with some silly stuff.
 
 With this the basic site is created.  As a final step to prepare the site for blog posts of my own I go to the _posts folder of my repo and delete the three files there from the Jeykll blog.
 
