@@ -37,7 +37,6 @@ title: Archive
 {% endfor %}
 ```
 
-
 Finally I wanted an RSS feed.  I found some code for this as well.  Create a file called Atom.XML and paste this into it:
 
 ```
