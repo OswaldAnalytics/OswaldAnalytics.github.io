@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating a Blog Part 2"
+title:  "Creating a Blog Part 3"
 ---
 
 To summarize the last posts, I started with an empty Github, copied a blog theme, changed the default information to my own and set up the page to support blog posts.  This post will thus deal with creating and posting blogs.
