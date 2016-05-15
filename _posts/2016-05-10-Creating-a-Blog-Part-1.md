@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting Up a Blog Part 1"
+title:  "Creating a Blog Part 1"
 ---
 
 I decided that to practice my writing to improve my thesis and overall graduate level writing ability, I would create a blog.  This would allow me to practice my writing, share ideas and learn to edit out the errors in my writing.  Looking over traditional options however left me very unsatified.  I had heard of people using github to run blogs so I decided to give it a shot.
