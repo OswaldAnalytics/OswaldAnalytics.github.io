@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Creating a Blog Part 2"
+---
+
 To summarize the last posts, I started with an empty Github, copied a blog theme, changed the default information to my own and set up the page to support blog posts.  This post will thus deal with creating and posting blogs.
 
 I chose Github and Jekyll for my blogs because they used Markdown.  Markdown is a simplified typesetting language.  Whereas programs like word require you to find the setting you need in one of the many ribbon bars, Markdown you can just type the code yourself.  Since I have not memorized the coding yet, as simple as it may be, and I wanted a live previewer of what I was writing I downloaded Haroopad:
