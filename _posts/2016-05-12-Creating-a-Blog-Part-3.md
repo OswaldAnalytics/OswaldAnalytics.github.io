@@ -9,9 +9,9 @@ I chose Github and Jekyll for my blogs because they used Markdown.  Markdown is 
 
 http://pad.haroopress.com/
 
-This gives me a nice two column work enviroment, one where I type in my blog and format with Markdown and the second showing what it will look like when I publish it.
+This gives me a nice two column work environment, one where I type in my blog and format with Markdown and the second showing what it will look like when I publish it.
 
-You can write the blogs straight in Github's editor, but Haroopad gives me a nice insert option incase I forget the code to add formatting.
+You can write the blogs straight in Github's editor, but Haroopad gives me a nice insert option in case I forget the code to add formatting.
 
 Now this blog does require a certain naming convention.  You must name your files like this:
 
@@ -19,6 +19,19 @@ year-month-day-Title-Of-Blog.md
 
 So year, dash, month, dash, day, dash, title of the blog with dashes between the words, and .md to make sure it saves in the Markdown format.
 
-Now there are several ways to take your finished posts and move them to the blog.  I take the easist option and just upload them into the _posts folder. Simply go to the folder and drag the files into it.
+To finish the posts, add the following as a header:
+
+```
+---
+layout: post
+title:  "Creating a Blog Part 1"
+---
+```
+
+This tells the site to render the page with the post style instead of just displaying the raw HTML that builds it.
+
+I like to check my final post over in Sublime text with a spell-checker, but those with better writing skills can skip this.
+
+Now there are several ways to take your finished posts and move them to the blog.  I take the easiest option and just upload them into the _posts folder. Simply go to the folder and drag the files into it.
 
 Next post will finish up this series on blog making with some other things you can do.
