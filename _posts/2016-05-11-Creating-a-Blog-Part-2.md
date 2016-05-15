@@ -26,7 +26,7 @@ I repeated this for my CV.
 
 Now I wanted an archive section for my posts where people can review my posts in a faster manner than scrolling through them page by page.  I found some simple code that would do just this:
 
-```
+~~~
 ---
 layout: page
 title: Archive
@@ -36,7 +36,7 @@ title: Archive
 {% for post in site.posts %}
   * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}
-```
+~~~
 
 Now for some cleanup.  I dropped the license.md file as I did not need this.  I edited the readme.md file to my name and the template for the blog I used.  Then I editted my 404 file for fun replacing the text there with some silly stuff.
 
