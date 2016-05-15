@@ -18,6 +18,8 @@ Since I did not want a theme page but a blog it is time to make some edits.
 Prior research told me th The _config.yml file contains the information I would need to change for the blog to display my infomation instead of Mark Otto's, who created Hyde.
 
 The file is fairly easy to understand.  Look for infomation and change it out to my information.
+
+
 ```
 # Dependencies
 markdown:         redcarpet
