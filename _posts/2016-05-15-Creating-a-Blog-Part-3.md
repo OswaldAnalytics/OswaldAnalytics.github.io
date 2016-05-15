@@ -14,6 +14,6 @@ year-month-day-Title-Of-Blog.md
 
 So year, dash, month, dash, day, dash, title of the blog with dashes between the words, and .md to make sure it saves in the Markdown format.
 
-Now there are several ways to take your finished posts and move them to the blog.  I take the easist option and just upload them into the _posts folder. Simply go to the folder and drag the files into it.
+Now there are several ways to take your finished posts and move them to the blog.  I take the easist option and just upload them into the _posts folder. Simply go to the folder and drag the files into it.  When you upload your first post, delete the temp.md file we made before.
 
 Next post will finish up this series on blog making with some other things you can do.
