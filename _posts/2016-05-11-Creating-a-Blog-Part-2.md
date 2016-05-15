@@ -18,6 +18,7 @@ title: About
 Profile goes here
 ```
 
+
 This follows a simple format.  For layout, you tell it you want to use the page style, as opposed to the post style you use for blogs.  There are small differences between the two, but page style will not date the page, whereas blog post will.
 
 Title is simply the title of the Page.  Anything before the dashed lines wil be displaced on the page.  For now I used placeholds.
@@ -38,6 +39,7 @@ title: Archive
   * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}
 ~~~
+
 
 Now for some cleanup.  I dropped the license.md file as I did not need this.  I edited the readme.md file to my name and the template for the blog I used.  Then I editted my 404 file for fun replacing the text there with some silly stuff.
 
