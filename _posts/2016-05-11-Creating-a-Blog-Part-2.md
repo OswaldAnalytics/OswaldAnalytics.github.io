@@ -27,6 +27,7 @@ I repeated this for my CV.
 Now I wanted an archive section for my posts where people can review my posts in a faster manner than scrolling through them page by page.  I found some simple code that would do just this:
 
 ```
+---
 layout: page
 title: Archive
 ---
