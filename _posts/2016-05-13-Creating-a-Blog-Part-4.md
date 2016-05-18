@@ -38,11 +38,7 @@ title: Archive
 ```
 {% endraw %}
 
-Now the Archive page will be an actual working Archive.  Not to fellow coders.  If you wish to embed code like that you cannot the three back-ticks you normally use in Markdown for code chunks, you must use the raw tag.  Otherwise Liquid will render the code thinking it is part of the page style.  So use the standard:
-
-```{% %}``` 
-
-container with raw and endraw to subset any sections about styles that do not work with Markdown's code chunks.
+Now the Archive page will be an actual working Archive.  Note to fellow coders. If you want to embed code from liquid, as I did here, you need use raw and endraw tags.  See the github code for this page for the exact tag.
 
 
 
