@@ -33,17 +33,17 @@ Following a Think Aloud Methodology
 **Professional Work Experience**
 
 		
-*2012-2015		Research Assistant
-*Cognition and Learning Lab 
+*2012-2015		Research Assistant*
+Cognition and Learning Lab 
 Under the Supervision of Dr. Jeffery Greene
 Department of Education, University of North Carolina at Chapel Hill
 
-*2006-2012		Research Assistant
-*Under the Supervision of Dr. Shane Murphy
+*2006-2012		Research Assistant*
+Under the Supervision of Dr. Shane Murphy
 			Psychology Department, Western Connecticut State University
 
-*2002-2002		Research Assistant
-*Under the Supervision of Dr. Mary Nelson
+*2002-2002		Research Assistant*
+Under the Supervision of Dr. Mary Nelson
 			Psychology Department, Western Connecticut State University
 
 
