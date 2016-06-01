@@ -12,7 +12,7 @@ Carrboro, NC
 
 **OSWALD ANALYTICS**
 
-www.oswaldanalytics.com
+http://www.oswaldanalytics.com
 
 
 **Education**
