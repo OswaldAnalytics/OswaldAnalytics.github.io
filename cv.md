@@ -4,6 +4,8 @@ title: Curriculum Vitae
 ---
 **CURRICULUM VITAE**
 
+Last updated: 6/1/16
+
 CHRISTOPHER ALAN OSWALD
 
 Oswaldcsu@gmail.com
