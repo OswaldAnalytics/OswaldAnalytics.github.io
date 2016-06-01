@@ -84,6 +84,9 @@ Greene, J. A., Bolick, C. M., Jackson, W. P., Caprino, A. M., Oswald, C. (April,
 
 **Invited Talks
 **
+
+Oswald, C., Deekens, V., Freed, R., Yu, S., & Lobczowski, N.G. (2016).  Digital natives, fixed intelligence and learning styles:  Three modern myths in education.  Presenter at the Bi-annual School of Education GSA Research Symposium, Chapel Hill, NC.
+
 Oswald, C.A. (2010).  “Don’t Panic: Video Games are Mostly Harmless.  Presenter at the Connecticut Psychological Association (CPA) Conference, Windsor, CT.
 
 Murphy, S.M., Oswald, C.A (2009).  “Videogames, Violence and Social Learning Theory.”  Presenter at the New England Psychological Association (NEPA) Conference, Worcester, MA.
