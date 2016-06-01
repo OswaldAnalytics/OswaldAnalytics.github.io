@@ -5,12 +5,14 @@ title: Curriculum Vitae
 **CURRICULUM VITAE**
 
 CHRISTOPHER ALAN OSWALD
+
 Oswaldcsu@gmail.com
+
 Carrboro, NC
 
 **OSWALD ANALYTICS**
 
-WWW.OSWALDANALYTICS.COM
+www.oswaldanalytics.com
 
 
 **Education**
