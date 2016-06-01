@@ -1,99 +1,124 @@
 ---
 layout: page
-title: CV
+title: CURRICULUM VITAE
 ---
+**CURRICULUM VITAE
+**
+CHRISTOPHER ALAN OSWALD
+Oswaldcsu@gmail.com
+Carrboro, NC
 
-Johnny Coder
-============
+**OSWALD ANALYTICS
+**
+WWW.OSWALDANALYTICS.COM
 
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
+**
+Education**
 
-Education
----------
+**2012-Present		Department of	Education					M.A.**
+			Specialization:  Educational Psychology, Measurement and Evaluation
+			University of North Carolina
+			Chapel Hill, NC
+			Advisor: Dr. Jeffery Greene
+Title of Masters Project: Selection of Self-Regulated Learning Processes
+Following a Think Aloud Methodology
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+1**999-2008		Department of	 Psychology					B.A**
+			Western Connecticut State University.  
+	Danbury, CT
+	Advisors: Dr. Shane Murphy and Dr. Mary Nelson.
+	
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+**Professional Work Experience
+**
+		
+**2012-2015		Research Assistant
+**Cognition and Learning Lab 
+Under the Supervision of Dr. Jeffery Greene
+Department of Education, University of North Carolina at Chapel Hill
 
-    *Minor: Awesomeology*
+**2006-2012		Research Assistant
+**Under the Supervision of Dr. Shane Murphy
+			Psychology Department, Western Connecticut State University
 
-Experience
-----------
+2002-2002		Research Assistant
+Under the Supervision of Dr. Mary Nelson
+			Psychology Department, Western Connecticut State University
 
-**Your Most Recent Work Experience:**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+**Master Thesis
+**
+Oswald, C.A.  (In preparation).  Selection of Self-Regulated Learning Processes Following a Think Aloud Methodology.
 
-* First item
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+**Publications
+**
+Refereed Journal Articles
 
-**That Other Job You Had**
+Greene, J. A., Oswald, C., & Pomerantz, J. (2015). Predictors of retention and achievement in a massive open online course. American Education Research Journal, 52(5), 925-955.
 
-Also with a short description.
+Greene, J. A., Bolick, C. M., Jackson, W. P., Caprino, A. M., Oswald, C., & McVea, M. (2015b). Domain-specificity of self-regulated learning processing in science and history digital libraries. Contemporary Educational Psychology, 42, 111-128.
 
-Technical Experience
---------------------
+Oswald, C.A, Prorock, C, Murphy, S.M.  The perceived meaning of the video game experience: An exploratory study.  Psychology of Popular Media Culture., 3(2), 110-126.
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+**Paper Presentations
+**All presentations had refereed abstracts.
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+Greene, J. A., Bolick, C. M., Jackson, W. P., Caprino, A. M., Oswald, C. (2014). An experimental comparison of self-regulated learning processing across academic domains. Paper presented at the annual meeting of the American Psychological Association, Washington, DC.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+Caprino, A. M., Jackson, W. P., Oswald, C. A., Greene, J. A., & Bolick, C. M. (2013). College students’ use of self-regulated learning processing in digital libraries: A pilot study and exploratory analysis.  Paper presented at the Southeastern Association of Educational Studies (SEAES) Conference, Chapel Hill, NC.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+Murphy S.M., Oswald, C.A.  (2012).  Violent Video Games And Affective State: The Effect Of Competition Or Cooperation.  Paper presented at the New England Psychological Association (NEPA) Conference, Worcester, MA.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+Murphy S.M., Oswald C.A.  (2011)  How Participants Understand their Video Game Experiences: Implications for Sport Psychology.  Paper Presentation at New England Psychology Association (NEPA) Conference,New Fairfield, CT
 
-[ref]: https://github.com/githubuser/superlongprojectname
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+**Poster Presentations
+**
+Greene, J. A., Oswald, C., & Pomerantz, J. (April, 2015). Predictors of retention and achievement in massive open online courses: Student characteristics and motivation. Poster presented at the 2015 American Educational Research Association Conference, Chicago, IL.
 
-* Human Languages:
+Greene, J. A., Bolick, C. M., Jackson, W. P., Caprino, A. M., Oswald, C. (April, 2014). Examining SRL generality and specificity within and across academic domains and contexts. Poster presented at the 2014 American Educational Research Association Conference, Philadelphia, PA.
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+**Invited Talks
+**
+Oswald, C.A. (2010).  “Don’t Panic: Video Games are Mostly Harmless.  Presenter at the Connecticut Psychological Association (CPA) Conference, Windsor, CT.
 
-* Random tidbit
+Murphy, S.M., Oswald, C.A (2009).  “Videogames, Violence and Social Learning Theory.”  Presenter at the New England Psychological Association (NEPA) Conference, Worcester, MA.
 
-* Other sort of impressive-sounding thing you did
+
+
+**Teaching Experience
+**		
+Teaching Assistant:
+
+PSY100	Introduction to Psychology, Fall 2010  Under the Supervision of Shane Murphy	
+
+
+
+**Professional Service Activities
+**
+2009-present	Reviewer, Educational Researcher
+
+
+
+**Professional Associations/Affiliations
+**
+
+2008-present 	American Psychological Association (APA) – Division 5, 15, 42
+
+2012-present 	American Educational Research Association (AERA)
+
+
+
+
+
+**Data Analysis Programs and Languages
+**
+
+Proficient:  SPSS, R Studio, R (base, ggplot2, lavaan, glmnet, leaps, knitr), Markdown
+
+Familiar with:  LaTex, MPLUS, PyCharm, Python (NumPy, SciPy, scikit-learn, pandas, ggplot, matplotlib, Statsmodels, plotly, d3py), R packages (Shiny, plotly, dplyr)
 
