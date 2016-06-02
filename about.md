@@ -7,13 +7,13 @@ I am Christopher Oswald, a researcher at UNC: Chapel Hill presueing a master's d
 
 I can be found in the following places:
 
-(https://scholar.google.com/citations?user=MiTIF6IAAAAJ&hl=en "Google Scholar")
+[Google Scholar](https://scholar.google.com/citations?user=MiTIF6IAAAAJ&hl=en)
 
-(https://www.researchgate.net/profile/Christopher_Oswald "Research Gate")
+[Research Gate](https://www.researchgate.net/profile/Christopher_Oswald)
 
-(https://github.com/OswaldAnalytics "Github")
+[Github](https://github.com/OswaldAnalytics)
 
-(https://www.facebook.com/christopher.oswald.9 "Facebook")
+[Facebook](https://www.facebook.com/christopher.oswald.9)
 
 I can also be contacted by email at oswaldcsu@gmail.com
 
