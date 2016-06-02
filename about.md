@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am Christopher Oswald, a researcher at UNC: Chapel Hill presueing a master's degree in Educational Psychology, Measurement and Evaluation.
+I am Christopher Oswald, a researcher at UNC: Chapel Hill pursuing a master's degree in Educational Psychology, Measurement and Evaluation.
 
 I can be found in the following places:
 
