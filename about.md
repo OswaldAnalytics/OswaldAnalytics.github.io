@@ -17,7 +17,7 @@ I can be found in the following places:
 
 I can also be contacted by email at oswaldcsu@gmail.com
 
-This blog is mainly a way for me to share information that I normally would email around and to work on my writing, which currently is a weakness of mine.  I need to learn far better editing skills, so I figured why not make a blog and learn that way.  The blog will be heavily focused on research, software to help research, statistics and data science.
+This blog is mainly a way for me to share information that I normally would email around and to work on my writing, which currently is a weakness of mine.  I need to learn far better editing skills, so I figured why not make a blog and learn that way.  The blog will be heavily focused on research, software, statistics and data science.
 
 I see posts falling in the following major areas:
 
