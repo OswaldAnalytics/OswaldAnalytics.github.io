@@ -21,7 +21,7 @@ This blog is mainly a way for me to share information that I normally would emai
 
 I see posts falling in the following major areas:
 
-1.  Program overviews of useful programs.
+1.  Overviews of useful programs.
 2.  Things I wish I knew when I started graduate school.
 3.  Scripts in different languages to make life easier.
 4.  Discussions of articles I find interesting.
